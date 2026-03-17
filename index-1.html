@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amber's Alchemy Apothecary | Herbal Remedies | Awaken With Amber LLC</title>
+  <meta name="description" content="Amber's Alchemy Apothecary offers handcrafted herbal remedies, custom tea blends, botanical beauty products, spiritual wellness services, and free consultation booking through Awaken With Amber LLC." />
+  <meta name="keywords" content="Amber's Alchemy Apothecary, Awaken With Amber, herbal remedies, medicinal herbs, apothecary, custom tea blends, herbal capsules, botanical skincare, natural wellness, spiritual services, aura cleansing, chakra balancing, past life regression, herbal beauty, hair growth herbs, immune herbs, sleep herbs" />
+  <meta name="author" content="Amber Lynn Patten" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="Amber's Alchemy Apothecary | Herbal Remedies | Awaken With Amber LLC" />
+  <meta property="og:description" content="A mystical botanical apothecary for handcrafted remedies, herbal education, and spiritual wellness services." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=1200&q=80" />
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Organization",
+    "name":"Awaken With Amber LLC",
+    "alternateName":"Amber's Alchemy Apothecary",
+    "email":"awaken@consultant.com",
+    "telephone":"801-819-6795",
+    "sameAs":[
+      "https://cash.app/$AmberPatten92",
+      "https://venmo.com/code?user_id=3573264899114195665&created=1772995696",
+      "https://calendar.app.google/9HQiUE6f4Dw2wuhs9"
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"FAQPage",
+    "mainEntity":[
+      {
+        "@type":"Question",
+        "name":"What is Amber's Alchemy Apothecary?",
+        "acceptedAnswer":{"@type":"Answer","text":"Amber's Alchemy Apothecary is the herbal and healing branch of Awaken With Amber LLC, offering handcrafted remedies, botanical education, custom formulas, and spiritual support."}
+      },
+      {
+        "@type":"Question",
+        "name":"Can I order custom remedies?",
+        "acceptedAnswer":{"@type":"Answer","text":"Yes. Visitors can choose ingredients and request custom tea blends, custom capsule blends, or custom balms."}
+      },
+      {
+        "@type":"Question",
+        "name":"How do I book with Amber?",
+        "acceptedAnswer":{"@type":"Answer","text":"Use the booking button on the site to open Amber's Google Calendar booking page and reserve a session."}
+      },
+      {
+        "@type":"Question",
+        "name":"Do you offer spiritual services too?",
+        "acceptedAnswer":{"@type":"Answer","text":"Yes. Services include care and divination readings, aura and space cleansing, past life regression, generational trauma healing, chakra balancing, and crystal rebirthing."}
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root{
+      --bg:#120916;
+      --panel:#1a1022;
+      --panel-2:#261331;
+      --line:rgba(255,255,255,.09);
+      --text:#f8f3ff;
+      --muted:#d6c9df;
+      --gold:#e0b45d;
+      --amber:#bf7c2e;
+      --green:#2d8a57;
+      --red:#8a2d36;
+      --shadow:0 20px 60px rgba(0,0,0,.38);
+      --radius:24px;
+      --max:1440px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--text);background:radial-gradient(circle at 15% 0%, rgba(224,180,93,.10), transparent 18%),radial-gradient(circle at 85% 10%, rgba(125,73,195,.18), transparent 26%),linear-gradient(180deg,#120916 0%,#1a1021 45%,#0d0711 100%)}
+    a{text-decoration:none;color:inherit}
+    h1,h2,h3,h4{margin:0 0 10px;font-family:Georgia,"Times New Roman",serif}
+    p,ul{line-height:1.72}
+    img{max-width:100%;display:block}
+    .stars{position:fixed;inset:0;pointer-events:none;opacity:.15;background-image:radial-gradient(circle at 10% 20%, #fff 0 1px, transparent 1px),radial-gradient(circle at 72% 12%, #fff 0 1px, transparent 1px),radial-gradient(circle at 60% 40%, #fff 0 1px, transparent 1px),radial-gradient(circle at 20% 74%, #fff 0 1px, transparent 1px),radial-gradient(circle at 88% 82%, #fff 0 1px, transparent 1px)}
+    .music-gate{position:fixed;inset:0;z-index:200;display:flex;align-items:center;justify-content:center;padding:24px;background:rgba(8,5,10,.78);backdrop-filter:blur(10px)}
+    .music-gate.hidden{display:none}
+    .music-gate-card{width:min(640px,100%);padding:28px;border-radius:28px;background:linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.03));border:1px solid var(--line);box-shadow:var(--shadow);text-align:center}
+    .music-gate-actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:18px}
+    .site-header{position:sticky;top:0;z-index:30;display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;padding:18px 24px;border-bottom:1px solid var(--line);background:rgba(18,9,22,.86);backdrop-filter:blur(12px)}
+    .brand-wrap{display:flex;align-items:center;gap:14px}
+    .brand-mark{width:54px;height:54px;border-radius:50%;display:grid;place-items:center;font-size:22px;background:linear-gradient(135deg, rgba(224,180,93,.25), rgba(125,73,195,.35));border:1px solid rgba(255,255,255,.10);box-shadow:var(--shadow)}
+    .eyebrow{color:var(--gold);text-transform:uppercase;letter-spacing:.18em;font-size:.74rem;margin-bottom:8px}
+    .site-nav{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+    .nav-btn{background:rgba(255,255,255,.04);color:var(--muted);border:1px solid var(--line);border-radius:14px;padding:10px 14px;cursor:pointer;font:inherit}
+    .nav-btn.active{color:#1d1206;background:linear-gradient(135deg,var(--gold),var(--amber));border:none}
+    .pane-wrap{max-width:var(--max);margin:0 auto;padding:24px}
+    .pane{display:none}.active-pane{display:block}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02));border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+    .hero{display:grid;grid-template-columns:1.15fr .85fr;gap:20px;padding:28px;align-items:start}
+    .hero-copy h2{font-size:clamp(2.2rem,5vw,4.6rem);line-height:1.02;margin-bottom:16px}
+    .hero-copy p,.prose p,.intro-copy p,.service-card p{color:var(--muted)}
+    .hero-tags{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}
+    .hero-tags span,.pill,.tag{padding:8px 11px;border-radius:999px;background:rgba(255,255,255,.06);border:1px solid var(--line);font-size:.82rem}
+    .hero-actions{display:flex;gap:12px;flex-wrap:wrap}
+    .welcome-video{padding:22px}.welcome-frame{display:block;width:100%;aspect-ratio:16/9;min-height:260px;border:none;border-radius:18px;background:#000}
+    .intro-copy{margin-top:18px;padding:24px}
+    .section-head{display:flex;justify-content:space-between;align-items:end;gap:16px;flex-wrap:wrap;margin:0 0 18px}
+    .filters{display:flex;gap:12px;flex-wrap:wrap}
+    input,select,textarea{width:100%;background:rgba(255,255,255,.06);color:var(--text);border:1px solid var(--line);border-radius:16px;padding:14px 16px;outline:none;font:inherit}
+    .filters input,.filters select{min-width:220px}
+    textarea{min-height:110px;resize:vertical}
+    .results-row{color:var(--muted);margin-bottom:14px}
+    .product-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}
+    .product-card{overflow:hidden}
+    .product-visual{height:230px;background-size:cover!important;background-position:center!important;border-bottom:1px solid var(--line);position:relative}
+    .product-visual:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg, rgba(0,0,0,0) 35%, rgba(0,0,0,.28) 100%)}
+    .product-body{padding:18px}.product-top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start;margin-bottom:12px}.price{color:var(--gold);font-weight:bold;white-space:nowrap}
+    .help-tags{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}.visual-note{font-size:.84rem;color:#eadcf6;margin-bottom:10px}
+    .builder-grid,.about-grid,.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+    .builder-panel,.preview-panel,.prose{padding:24px}
+    .builder-panel label{display:block;margin:14px 0 8px;color:var(--gold);font-size:.92rem}
+    .builder-choices{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+    .builder-choices label{display:flex;align-items:center;gap:8px;padding:10px 12px;border-radius:14px;background:rgba(255,255,255,.05);border:1px solid var(--line);cursor:pointer}
+    .preview-price{font-size:1.65rem;color:var(--gold);font-weight:bold;margin:16px 0}
+    .service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .service-card{padding:24px;background:linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02));border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+    .btn{display:inline-flex;justify-content:center;align-items:center;gap:8px;padding:13px 18px;border:none;border-radius:16px;cursor:pointer;font-weight:bold;transition:.2s ease;font:inherit}
+    .btn:hover{transform:translateY(-1px)}
+    .btn.gold{background:linear-gradient(135deg,var(--gold),var(--amber));color:#231405}
+    .btn.ghost{background:transparent;color:var(--text);border:1px solid rgba(224,180,93,.35)}
+    .music-green{background:linear-gradient(135deg,#43b56a,#2d8a57);color:#fff}.music-red{background:linear-gradient(135deg,#b64a55,#8a2d36);color:#fff}.full{width:100%}
+    .cart-drawer{position:fixed;top:0;right:-430px;width:min(430px,94vw);height:100vh;z-index:80;background:rgba(18,9,22,.98);border-left:1px solid var(--line);transition:right .25s ease;display:flex;flex-direction:column;box-shadow:var(--shadow)}
+    .cart-drawer.open{right:0}.cart-head{display:flex;justify-content:space-between;align-items:center;padding:18px;border-bottom:1px solid var(--line)}
+    .icon-btn{width:40px;height:40px;border:none;border-radius:12px;background:rgba(255,255,255,.08);color:var(--text);cursor:pointer;font:inherit}
+    .cart-items{flex:1;overflow:auto;padding:16px;display:grid;gap:12px}
+    .cart-item{padding:14px;border-radius:16px;background:rgba(255,255,255,.05);border:1px solid var(--line)}
+    .cart-item-top{display:flex;justify-content:space-between;gap:10px}.cart-actions{display:flex;gap:8px;margin-top:10px}
+    .cart-actions button{width:34px;height:34px;border:none;border-radius:10px;background:rgba(255,255,255,.08);color:var(--text);cursor:pointer;font:inherit}
+    .cart-foot{padding:18px;border-top:1px solid var(--line);display:grid;gap:10px}.totals{display:grid;gap:8px;margin-bottom:6px}.total-row{display:flex;justify-content:space-between;color:var(--muted)}.total-row.grand{color:var(--text);font-size:1.08rem}
+    .order-form{display:grid;gap:10px}.cart-note{color:var(--muted);font-size:.82rem;line-height:1.6}.empty{color:var(--muted);text-align:center;padding:28px 16px;border:1px dashed var(--line);border-radius:18px}
+    @media (max-width:1100px){.hero,.builder-grid,.about-grid,.contact-grid,.service-grid{grid-template-columns:1fr}}
+    @media (max-width:760px){.site-header{padding:16px}.pane-wrap{padding:16px}.builder-choices{grid-template-columns:1fr}.site-nav{gap:8px}.nav-btn,.btn{padding:11px 12px}.product-visual{height:210px}}
+  </style>
+</head>
+<body>
+<div class="stars"></div>
+<div id="musicGate" class="music-gate">
+  <div class="music-gate-card">
+    <div class="eyebrow">Enter the Apothecary</div>
+    <h2>Choose Your Experience</h2>
+    <p>Step into a soft, mystical atmosphere with calming background music, or continue in silence.</p>
+    <div class="music-gate-actions">
+      <button type="button" id="startMusicBtn" class="btn music-green">Experience Calming Music</button>
+      <button type="button" id="skipMusicBtn" class="btn music-red">Continue Without</button>
+    </div>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="brand-wrap">
+    <div class="brand-mark">✦</div>
+    <div>
+      <div class="eyebrow">Awaken With Amber LLC</div>
+      <h1>Amber's Alchemy Apothecary</h1>
+    </div>
+  </div>
+  <nav class="site-nav">
+    <button type="button" class="nav-btn active" data-pane="homePane">Home</button>
+    <button type="button" class="nav-btn" data-pane="shopPane">Shop</button>
+    <button type="button" class="nav-btn" data-pane="botanicalsPane">Botanicals</button>
+    <button type="button" class="nav-btn" data-pane="builderPane">Build Your Remedy</button>
+    <button type="button" class="nav-btn" data-pane="servicesPane">Services</button>
+    <button type="button" class="nav-btn" data-pane="aboutPane">About</button>
+    <button type="button" class="nav-btn" data-pane="blogPane">Articles</button>
+    <button type="button" class="nav-btn" data-pane="bookingPane">Booking</button>
+    <button type="button" class="nav-btn" data-pane="contactPane">Contact</button>
+    <button type="button" id="cartBtn" class="btn gold">Cart <span id="cartCount">0</span></button>
+  </nav>
+</header>
+
+<main class="pane-wrap">
+  <section id="homePane" class="pane active-pane">
+    <div class="hero card">
+      <div class="hero-copy">
+        <div class="eyebrow">Mystical • Botanical • Transformational</div>
+        <h2>If you've found this site, you were meant to be here. Welcome to your next awakening.</h2>
+        <p>Step into a candlelit apothecary of handcrafted herbal remedies, custom botanical blends, sacred ritual care, and spiritual guidance designed to support your body, soothe your nervous system, and guide your awakening.</p>
+        <div class="hero-tags">
+          <span>Herbal Remedies</span><span>Vitamin Capsules</span><span>Beauty Balm</span><span>Pain Balm</span><span>Hair Regrowth Serum</span><span>Custom Tea</span><span>Custom Capsules</span><span>Custom Balms</span>
+        </div>
+        <div class="hero-actions">
+          <button type="button" class="btn gold go-pane" data-pane="shopPane">Enter the Apothecary</button>
+          <button type="button" class="btn ghost" id="bookingBtn">Book With Amber</button>
+        </div>
+      </div>
+      <div class="hero-side">
+        <div class="welcome-video card">
+          <div class="eyebrow">Welcome Video</div>
+          <iframe class="welcome-frame" src="https://player.vimeo.com/video/1171942742" title="Amber's Alchemy Apothecary Welcome Video" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="card intro-copy">
+      <h3>Herbal Remedies • Spiritual Healing • Ancient Apothecary Atmosphere</h3>
+      <p>Amber's Alchemy Apothecary by Awaken With Amber LLC offers handcrafted herbal remedies, herbal capsules, botanical beauty care, custom tea blends, custom capsule blends, custom balms, and spiritual healing services including care and divination readings, aura and space cleansing, chakra balancing, past life regression, crystal rebirthing, and healing-centered support.</p>
+    </div>
+
+    <audio id="bgMusic" loop preload="auto">
+      <source src="nastelbom-love-488313-1.mp3" type="audio/mpeg">
+    </audio>
+  </section>
+
+  <section id="shopPane" class="pane">
+    <div class="section-head"><div><div class="eyebrow">Shop</div><h2>Handcrafted Apothecary Goods</h2></div></div>
+    <div id="creationsGrid" class="product-grid"></div>
+  </section>
+
+  <section id="botanicalsPane" class="pane">
+    <div class="section-head">
+      <div><div class="eyebrow">Herb Library</div><h2>Choose your ingredients and learn what they support</h2></div>
+      <div class="filters">
+        <input id="searchInput" type="text" placeholder="Search herbs, flowers, roots, leaves, mushrooms..." />
+        <select id="categoryFilter">
+          <option value="all">All Categories</option>
+          <option value="Sleep & Calm">Sleep & Calm</option>
+          <option value="Energy & Resilience">Energy & Resilience</option>
+          <option value="Immune Support">Immune Support</option>
+          <option value="Beauty & Skin">Beauty & Skin</option>
+          <option value="Hair & Scalp">Hair & Scalp</option>
+          <option value="Digestive Support">Digestive Support</option>
+          <option value="Women's Wellness">Women's Wellness</option>
+          <option value="Spiritual & Ritual">Spiritual & Ritual</option>
+          <option value="Functional Mushrooms">Functional Mushrooms</option>
+        </select>
+      </div>
+    </div>
+    <div class="results-row"><span id="resultsCount">0 items shown</span></div>
+    <div id="botanicalsGrid" class="product-grid"></div>
+  </section>
+
+  <section id="builderPane" class="pane">
+    <div class="section-head"><div><div class="eyebrow">Custom Remedy</div><h2>Create a custom tea, capsule blend, or balm</h2></div></div>
+    <div class="builder-grid">
+      <div class="card builder-panel">
+        <label for="blendName">Remedy Name</label>
+        <input id="blendName" type="text" placeholder="Ex: Moon Garden Calm Blend" />
+        <label for="blendType">Choose Type</label>
+        <select id="blendType">
+          <option value="Custom Tea Blend">Custom Tea Blend</option>
+          <option value="Custom Capsule Blend">Custom Capsule Blend</option>
+          <option value="Custom Balm">Custom Balm</option>
+        </select>
+        <label for="blendGoal">Main Goal</label>
+        <select id="blendGoal">
+          <option value="Sleep Support">Sleep Support</option>
+          <option value="Stress & Nervous System Support">Stress & Nervous System Support</option>
+          <option value="Immune Support">Immune Support</option>
+          <option value="Hair & Scalp Support">Hair & Scalp Support</option>
+          <option value="Beauty & Skin Glow">Beauty & Skin Glow</option>
+          <option value="Digestive Ease">Digestive Ease</option>
+          <option value="Spiritual Protection & Ritual">Spiritual Protection & Ritual</option>
+        </select>
+        <label>Select Up To 5 Botanicals</label>
+        <div id="builderChoices" class="builder-choices"></div>
+        <label for="blendNotes">Special Notes</label>
+        <textarea id="blendNotes" placeholder="Tell Amber what kind of support, scent, vibe, or ingredients you want..."></textarea>
+        <button type="button" id="buildRemedyBtn" class="btn gold full">Create My Remedy</button>
+      </div>
+      <div class="card preview-panel">
+        <div class="eyebrow">Custom Preview</div>
+        <h3 id="previewTitle">Your remedy will appear here</h3>
+        <p id="previewDescription">Choose your type, goal, and botanicals to generate a personalized remedy.</p>
+        <div id="previewTags" class="hero-tags"></div>
+        <div class="preview-price" id="previewPrice">$0.00</div>
+        <button type="button" id="addCustomToCartBtn" class="btn ghost full" disabled>Add Custom Remedy To Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicesPane" class="pane">
+    <div class="section-head"><div><div class="eyebrow">Services</div><h2>Mystical Healing Support</h2></div></div>
+    <div id="servicesGrid" class="service-grid"></div>
+  </section>
+
+  <section id="aboutPane" class="pane">
+    <div class="section-head"><div><div class="eyebrow">About</div><h2>From the Apothecary</h2></div></div>
+    <div class="about-grid">
+      <article class="card prose">
+        <p>My healing journey began through pain, searching, and the feeling that there had to be something deeper than simply surviving. I was drawn to herbs, ritual, energy work, and intuitive healing because they helped me reconnect with myself in a way that felt real.</p>
+        <p>What began as curiosity became devotion. I started learning the language of plants, the emotional and spiritual atmosphere of healing, and how ritual, intention, and natural support could influence not just the body, but the soul and the energy of a space.</p>
+        <p>Awaken With Amber LLC was born from that journey. Amber's Alchemy Apothecary became the place where handcrafted remedies, spiritual guidance, botanical education, and custom healing experiences all came together.</p>
+      </article>
+      <aside class="card prose">
+        <h3>Mystical Old-World Feel</h3>
+        <ul>
+          <li>Vitamin capsules, teas, balms, and oils</li>
+          <li>Custom herbal formulations</li>
+          <li>Spiritual and energetic guidance</li>
+          <li>Education on herbs, roots, flowers, seeds, mushrooms, and ritual botanicals</li>
+          <li>A beautiful path for people in the middle of awakening</li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <section id="blogPane" class="pane">
+    <div class="section-head"><div><div class="eyebrow">Articles</div><h2>Guides, rituals, and botanical wisdom</h2></div></div>
+    <div class="product-grid">
+      <article class="card prose"><h3>Herbs for Sleep Rituals</h3><p>Explore calming botanicals, evening rituals, and ways to create a more supportive bedtime atmosphere.</p></article>
+      <article class="card prose"><h3>Botanicals for Hair Growth and Scalp Care</h3><p>Learn about traditional herbs, oils, and root-focused routines that support hair and scalp wellness.</p></article>
+      <article class="card prose"><h3>Immune Support Through Herbal Tradition</h3><p>Discover daily plant allies often used in seasonal wellness and resilience formulas.</p></article>
+      <article class="card prose"><h3>Natural Beauty and Botanical Skin Care</h3><p>Read about plant-based ingredients that bring softness, glow, and ritual beauty into everyday care.</p></article>
+      <article class="card prose"><h3>Ritual Herbs, Space Clearing, and Spiritual Practice</h3><p>Find inspiration for aura work, home cleansing, and old-world botanical ritual.</p></article>
+      <article class="card prose"><h3>Coming Soon: 200+ Herb Encyclopedia</h3><p>A searchable botanical library with benefits, traditional uses, and visually rich ingredient education.</p></article>
+    </div>
+  </section>
+
+  <section id="bookingPane" class="pane">
+    <div class="section-head"><div><div class="eyebrow">Booking</div><h2>Reserve your session</h2></div></div>
+    <div class="card prose">
+      <p>Book a session for care and divination readings, aura and space cleansing, past life regression, generational trauma healing, primal scream release work, chakra balancing, or crystal rebirthing.</p>
+      <button type="button" id="bookingBtnSecondary" class="btn gold">Open Booking Page</button>
+    </div>
+  </section>
+
+  <section id="contactPane" class="pane">
+    <div class="section-head"><div><div class="eyebrow">Contact</div><h2>Reach out, order, or begin your next chapter</h2></div></div>
+    <div class="contact-grid">
+      <div class="card prose">
+        <p><strong>Business:</strong> Awaken With Amber LLC</p>
+        <p><strong>Apothecary:</strong> Amber's Alchemy Apothecary</p>
+        <p><strong>Email:</strong> awaken@consultant.com</p>
+        <p><strong>Backup Email:</strong> dare2be4ree@gmail.com</p>
+        <p><strong>Phone:</strong> 801-819-6795</p>
+      </div>
+      <div class="card prose">
+        <p>Whether you are seeking a handcrafted remedy, a deeper spiritual session, or support through an awakening, this space was built to welcome you.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<aside id="cartDrawer" class="cart-drawer">
+  <div class="cart-head">
+    <h2>Your Cart</h2>
+    <button type="button" id="closeCart" class="icon-btn">✕</button>
+  </div>
+  <div id="cartItems" class="cart-items"></div>
+  <div class="cart-foot">
+    <div class="totals">
+      <div class="total-row"><span>Subtotal</span><strong id="subtotalAmount">$0.00</strong></div>
+      <div class="total-row"><span>Shipping</span><strong id="shippingAmount">$0.00</strong></div>
+      <div class="total-row"><span>Tax</span><strong id="taxAmount">$0.00</strong></div>
+      <div class="total-row grand"><span>Total</span><strong id="grandTotalAmount">$0.00</strong></div>
+    </div>
+    <form action="https://formsubmit.co/awaken@consultant.com" method="POST" class="order-form">
+      <input type="hidden" name="_cc" value="dare2be4ree@gmail.com" />
+      <input type="hidden" name="_subject" value="New Amber's Alchemy Apothecary Order" />
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="hidden" name="_template" value="table" />
+      <input type="text" name="customer_name" placeholder="Your Name" required />
+      <input type="email" name="customer_email" placeholder="Your Email" required />
+      <textarea name="order_notes" placeholder="Anything you want Amber to know about your order or shipping"></textarea>
+      <button type="submit" class="btn gold full">Send Order To Amber</button>
+    </form>
+    <a class="btn ghost full" id="venmoPayBtn" href="#" target="_blank">Pay With Venmo</a>
+    <a class="btn ghost full" id="cashAppPayBtn" href="#" target="_blank">Pay With Cash App</a>
+    <a class="btn ghost full" id="stripePayBtn" href="#" target="_blank">Pay By Card</a>
+    <p class="cart-note">Orders are sent to awaken@consultant.com and CC'd to dare2be4ree@gmail.com. Customers can also pay directly with Venmo, Cash App, or card.</p>
+  </div>
+</aside>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const CONFIG = {
+    bookingUrl: "https://calendar.app.google/9HQiUE6f4Dw2wuhs9",
+    venmoUrl: "https://venmo.com/code?user_id=3573264899114195665&created=1772995696",
+    cashAppUrl: "https://cash.app/$AmberPatten92",
+    stripePaymentUrl: "https://buy.stripe.com/8x214n81t2exb5e3pndAk00",
+    shippingFlatRate: 8.95,
+    taxRate: 0.07
+  };
+
+  const creations = [
+    { id:"dreamease-capsules", name:"DreamEase Vitamin Capsules", category:"Capsules", size:"60 capsules • 1 month supply", price:49.99, description:"A dreamy nightly formula designed to help the body exhale, the mind soften, and the evening become a ritual instead of a battle.", helps:["Sleep ritual","Evening calm","Nervous system support"], image:"https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&w=1200&q=80" },
+    { id:"vital-vitality-capsules", name:"Vital Vitality Capsules", category:"Capsules", size:"60 capsules • 1 month supply", price:47.99, description:"A steadying daily formula for people who want nourishment, support, and more consistent vitality.", helps:["Energy support","Daily nourishment","Resilience"], image:"https://images.unsplash.com/photo-1577401239170-897942555fb3?auto=format&fit=crop&w=1200&q=80" },
+    { id:"immune-at-ease-capsules", name:"Immune-at-Ease Capsules", category:"Capsules", size:"60 capsules", price:39.99, description:"A supportive blend created for seasonal resilience and everyday wellness with a more botanical, intentional feel.", helps:["Immune support","Seasonal wellness","Daily defense"], image:"https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1200&q=80" },
+    { id:"natural-collagen-rebuilder", name:"Natural Collagen Rebuilder Capsules", category:"Capsules", size:"120 capsules • 1 month supply", price:99.99, description:"A beauty-and-structure focused formula designed to support glow, renewal, and a sense of rebuilding from within.", helps:["Beauty support","Hair skin nails","Inner renewal"], image:"https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1200&q=80" },
+    { id:"age-reversal-beauty-balm", name:"Age Reversal Beauty Balm", category:"Beauty Balm", size:"Amber glass jar", price:36.00, description:"A rich botanical beauty balm that turns skincare into ceremony. Silky, lush, and deeply restorative.", helps:["Skin glow","Beauty ritual","Botanical nourishment"], image:"https://images.unsplash.com/photo-1556228578-8c89e6adf883?auto=format&fit=crop&w=1200&q=80" },
+    { id:"pain-balm-1oz", name:"Ultimate Pain Relieving Balm", category:"Body Balm", size:"Purple tin • Travel size • 1 oz", price:10.00, description:"A pocket-sized version of the warming body balm for tension spots, overworked muscles, and on-the-go relief rituals.", helps:["Travel size","Muscle comfort","Massage support"], image:"https://images.unsplash.com/photo-1611080541599-8c6dbde6ed28?auto=format&fit=crop&w=1200&q=80" },
+    { id:"pain-balm-2oz", name:"Ultimate Pain Relieving Balm", category:"Body Balm", size:"Amber glass jar • 2 oz", price:29.99, description:"A comforting botanical balm designed for sore muscles, tension, and body-care rituals that feel both practical and luxurious.", helps:["Body comfort","Massage ritual","Warming support"], image:"https://images.unsplash.com/photo-1611080541599-8c6dbde6ed28?auto=format&fit=crop&w=1200&q=80" },
+    { id:"pain-balm-4oz", name:"Ultimate Pain Relieving Balm", category:"Body Balm", size:"Amber glass jar • 4 oz", price:44.99, description:"A generous full-size jar for people who rely on deep body support and want enough for regular ritual use at home.", helps:["Full size","Body ritual","Comfort support"], image:"https://images.unsplash.com/photo-1611080541599-8c6dbde6ed28?auto=format&fit=crop&w=1200&q=80" },
+    { id:"hair-regrowth-serum", name:"Hair Regrowth Serum", category:"Hair Oil", size:"Amber glass dropper bottle", price:34.99, description:"A rich scalp and hair ritual serum crafted to nourish the roots, awaken the scalp, and make hair care feel intentional and alive again.", helps:["Scalp ritual","Hair nourishment","Root support"], image:"https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=1200&q=80" },
+    { id:"custom-tea", name:"Custom Tea Blend", category:"Custom Remedy", size:"Made to order", price:45.00, description:"A personalized loose-leaf tea blend built around your goals, ingredients, and desired energetic feel.", helps:["Custom support","Tea ritual","Personalized wellness"], image:"https://images.unsplash.com/photo-1497515114629-f71d768fd07c?auto=format&fit=crop&w=1200&q=80" },
+    { id:"custom-capsules", name:"Custom Capsule Blend", category:"Custom Remedy", size:"Made to order", price:55.00, description:"A custom capsule formula created for convenience, consistency, and support tailored to what your body and life are asking for.", helps:["Custom support","Convenient wellness","Personalized formula"], image:"https://images.unsplash.com/photo-1577401239170-897942555fb3?auto=format&fit=crop&w=1200&q=80" },
+    { id:"custom-balm", name:"Custom Balm", category:"Custom Remedy", size:"Made to order", price:48.00, description:"A handcrafted balm customized to your preferred herbs, purpose, and ritual style.", helps:["Custom support","Topical ritual","Personalized formula"], image:"https://images.unsplash.com/photo-1556228578-8c89e6adf883?auto=format&fit=crop&w=1200&q=80" }
+  ];
+
+  const botanicals = [
+    { name:"Ashwagandha", category:"Energy & Resilience", form:"Root", price:12, description:"A grounding adaptogenic root traditionally used to support resilience, steadier energy, and a calmer response to stress.", helps:["Stress resilience","Grounded energy","Daily support"], image:"https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=1200&q=80" },
+    { name:"Rhodiola", category:"Energy & Resilience", form:"Root", price:14, description:"An adaptogenic root often chosen when energy dips and mental stamina feels thin.", helps:["Energy support","Mental stamina","Resilience"], image:"https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=1200&q=80" },
+    { name:"Holy Basil", category:"Energy & Resilience", form:"Leaf", price:12, description:"A sacred aromatic herb valued for calm clarity and balance.", helps:["Calm focus","Balance","Mood support"], image:"https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=1200&q=80" },
+    { name:"Tulsi", category:"Energy & Resilience", form:"Leaf", price:12, description:"A beloved uplifting herb for calm without heaviness.", helps:["Centering","Daily balance","Mood lift"], image:"https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=1200&q=80" },
+    { name:"Chamomile", category:"Sleep & Calm", form:"Flower", price:10, description:"A golden flower beloved for helping the body soften and the mind quiet.", helps:["Relaxation","Sleep ritual","Emotional ease"], image:"https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=1200&q=80" },
+    { name:"Lavender", category:"Sleep & Calm", form:"Flower", price:10, description:"A fragrant floral that brings softness and peace.", helps:["Calming aroma","Evening ritual","Softening tension"], image:"https://images.unsplash.com/photo-1468327768560-75b778cbb551?auto=format&fit=crop&w=1200&q=80" },
+    { name:"Peppermint", category:"Digestive Support", form:"Leaf", price:9, description:"A cooling herb for digestive comfort and refreshing clarity.", helps:["Digestive ease","Fresh energy","Cooling support"], image:"https://images.unsplash.com/photo-1628556270448-4d4e4148e6b1?auto=format&fit=crop&w=1200&q=80" },
+    { name:"Ginger", category:"Digestive Support", form:"Root", price:10, description:"A warming root treasured for cozy heat and digestive support.", helps:["Warmth","Digestive support","Circulation"], image:"https://images.unsplash.com/photo-1573414405995-0dd876f5f8c1?auto=format&fit=crop&w=1200&q=80" },
+    { name:"Calendula", category:"Beauty & Skin", form:"Flower", price:10, description:"A golden flower beloved in oils, salves, and beauty rituals.", helps:["Skin support","Beauty ritual","Golden glow"], image:"https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=1200&q=80" },
+    { name:"Rose", category:"Beauty & Skin", form:"Flower", price:12, description:"A heart-opening flower that nourishes both beauty rituals and emotional softness.", helps:["Heart support","Beauty ritual","Floral nourishment"], image:"https://images.unsplash.com/photo-1518895949257-7621c3c786d7?auto=format&fit=crop&w=1200&q=80" },
+    { name:"Rosemary", category:"Hair & Scalp", form:"Leaf", price:10, description:"A classic botanical in scalp and hair rituals.", helps:["Scalp ritual","Hair support","Root energy"], image:"https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=1200&q=80" },
+    { name:"Fenugreek", category:"Hair & Scalp", form:"Seed", price:10, description:"A rich aromatic seed often used in traditions focused on hair and scalp nourishment.", helps:["Hair nourishment","Scalp support","Seeded strength"], image:"https://images.unsplash.com/photo-1599909366507-91d95b3c157d?auto=format&fit=crop&w=1200&q=80" },
+    { name:"Reishi", category:"Functional Mushrooms", form:"Mushroom", price:16, description:"A revered mushroom with a grounding tonic-like presence.", helps:["Calm resilience","Mushroom tonic","Deep support"], image:"https://images.unsplash.com/photo-1506806732259-39c2d0268443?auto=format&fit=crop&w=1200&q=80" },
+    { name:"Lion's Mane", category:"Functional Mushrooms", form:"Mushroom", price:16, description:"A favorite for clarity, focus, and feeling more mentally lit from within.", helps:["Clarity","Focus support","Cognitive support tradition"], image:"https://images.unsplash.com/photo-1506806732259-39c2d0268443?auto=format&fit=crop&w=1200&q=80" },
+    { name:"Blue Lotus", category:"Spiritual & Ritual", form:"Flower", price:16, description:"A mystical flower associated with softness, ceremonial beauty, and meditative calm.", helps:["Meditative calm","Mystical ritual","Soft awareness"], image:"https://images.unsplash.com/photo-1468327768560-75b778cbb551?auto=format&fit=crop&w=1200&q=80" }
+  ];
+
+  const services = [
+    { name:"Care & Divination Reading", price:55, description:"A grounded intuitive session for insight, clarity, reflection, and next-step guidance." },
+    { name:"Aura & Space Cleansing", price:88, description:"Energetic clearing support for homes, rooms, personal fields, transitions, or heavy atmospheres." },
+    { name:"Past Life Regression", price:111, description:"A guided symbolic and subconscious journey for patterns, themes, and soul-level exploration." },
+    { name:"Generational Trauma Healing", price:125, description:"A session focused on inherited patterns, emotional lineage, and creating space for deeper release." },
+    { name:"Primal Scream Release Session", price:70, description:"A cathartic emotional release session centered on expression, movement, voice, and nervous system unloading." },
+    { name:"Chakra Balancing", price:77, description:"An energetic alignment session focused on restoring flow, emotional spaciousness, and grounded harmony." },
+    { name:"Crystal Rebirthing", price:95, description:"A ritual-centered session using crystal energy, intention, and guided presence for renewal and reconnection." }
+  ];
+
+  const builderOptions = botanicals.map(b => b.name).slice(0, 15);
+  const state = { cart: [], filteredBotanicals: [...botanicals], customRemedy: null };
+
+  const creationsGrid = document.getElementById("creationsGrid");
+  const botanicalsGrid = document.getElementById("botanicalsGrid");
+  const servicesGrid = document.getElementById("servicesGrid");
+  const resultsCount = document.getElementById("resultsCount");
+  const cartDrawer = document.getElementById("cartDrawer");
+  const cartItems = document.getElementById("cartItems");
+  const cartCount = document.getElementById("cartCount");
+  const subtotalAmount = document.getElementById("subtotalAmount");
+  const shippingAmount = document.getElementById("shippingAmount");
+  const taxAmount = document.getElementById("taxAmount");
+  const grandTotalAmount = document.getElementById("grandTotalAmount");
+  const bgMusic = document.getElementById("bgMusic");
+  const musicGate = document.getElementById("musicGate");
+  const startMusicBtn = document.getElementById("startMusicBtn");
+  const skipMusicBtn = document.getElementById("skipMusicBtn");
+
+  function money(n){ return `$${Number(n).toFixed(2)}`; }
+  function showPane(id, btn){
+    document.querySelectorAll(".pane").forEach(p => p.classList.remove("active-pane"));
+    const pane = document.getElementById(id);
+    if (pane) pane.classList.add("active-pane");
+    document.querySelectorAll(".nav-btn").forEach(b => b.classList.remove("active"));
+    if (btn && btn.classList.contains("nav-btn")) btn.classList.add("active");
+  }
+  function escapeHtml(text){
+    return String(text).replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;");
+  }
+  function cardHTML(item){
+    const helps = item.helps || [item.category];
+    const sizeLine = item.size ? `<div class="visual-note">Size: ${escapeHtml(item.size)}</div>` : "";
+    const formLine = item.form ? `<div class="visual-note">Form: ${escapeHtml(item.form)}</div>` : "";
+    return `<article class="product-card card"><div class="product-visual" style="background-image:url('${item.image}');"></div><div class="product-body"><div class="product-top"><span class="pill">${escapeHtml(item.category)}</span><span class="price">${money(item.price)}</span></div><h3>${escapeHtml(item.name)}</h3><p>${escapeHtml(item.description)}</p><div class="help-tags">${helps.map(tag => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}</div>${sizeLine}${formLine}<button type="button" class="btn gold full add-cart-btn" data-name="${escapeHtml(item.name)}" data-price="${item.price}">Add To Cart</button></div></article>`;
+  }
+  function serviceCardHTML(service){
+    return `<article class="service-card"><h3>${escapeHtml(service.name)}</h3><p>${escapeHtml(service.description)}</p><button type="button" class="btn gold full add-cart-btn" data-name="${escapeHtml(service.name)}" data-price="${service.price}">Add To Cart • ${money(service.price)}</button></article>`;
+  }
+  function renderCreations(){ creationsGrid.innerHTML = creations.map(cardHTML).join(""); }
+  function renderBotanicals(list){ botanicalsGrid.innerHTML = list.map(cardHTML).join(""); resultsCount.textContent = `${list.length} items shown`; }
+  function renderServices(){ servicesGrid.innerHTML = services.map(serviceCardHTML).join(""); }
+  function applyBotanicalFilters(){
+    const query = document.getElementById("searchInput")?.value.trim().toLowerCase() || "";
+    const category = document.getElementById("categoryFilter")?.value || "all";
+    state.filteredBotanicals = botanicals.filter(item => {
+      const searchable = `${item.name} ${item.category} ${item.description} ${item.form || ""} ${(item.helps || []).join(" ")}`.toLowerCase();
+      const matchQuery = !query || searchable.includes(query);
+      const matchCategory = category === "all" || item.category === category;
+      return matchQuery && matchCategory;
+    });
+    renderBotanicals(state.filteredBotanicals);
+  }
+  function addToCart(name, price){
+    const existing = state.cart.find(item => item.name === name);
+    if(existing){ existing.qty += 1; } else { state.cart.push({ name, price: Number(price), qty: 1 }); }
+    renderCart(); openCart();
+  }
+  function removeFromCart(name){ state.cart = state.cart.filter(item => item.name !== name); renderCart(); }
+  function changeQty(name, delta){
+    const item = state.cart.find(i => i.name === name);
+    if(!item) return;
+    item.qty += delta;
+    if(item.qty <= 0){ removeFromCart(name); } else { renderCart(); }
+  }
+  function getSubtotal(){ return state.cart.reduce((sum, item) => sum + (item.price * item.qty), 0); }
+  function getShipping(subtotal){ return subtotal > 0 ? CONFIG.shippingFlatRate : 0; }
+  function getTax(subtotal){ return subtotal * CONFIG.taxRate; }
+  function renderCart(){
+    cartCount.textContent = state.cart.reduce((sum, item) => sum + item.qty, 0);
+    const subtotal = getSubtotal(); const shipping = getShipping(subtotal); const tax = getTax(subtotal); const total = subtotal + shipping + tax;
+    subtotalAmount.textContent = money(subtotal); shippingAmount.textContent = money(shipping); taxAmount.textContent = money(tax); grandTotalAmount.textContent = money(total);
+    if(state.cart.length === 0){ cartItems.innerHTML = '<div class="empty">Your cart is empty. Add something beautiful.</div>'; return; }
+    cartItems.innerHTML = state.cart.map(item => `<div class="cart-item"><div class="cart-item-top"><div><strong>${escapeHtml(item.name)}</strong><br><span style="color:var(--muted)">${money(item.price)} each</span></div><strong>${money(item.price * item.qty)}</strong></div><div class="cart-actions"><button type="button" class="qty-btn" data-name="${escapeHtml(item.name)}" data-delta="-1">−</button><button type="button" class="qty-btn" data-name="${escapeHtml(item.name)}" data-delta="1">+</button><button type="button" class="remove-btn" data-name="${escapeHtml(item.name)}">✕</button></div></div>`).join("");
+  }
+  function openCart(){ cartDrawer.classList.add("open"); }
+  function closeCart(){ cartDrawer.classList.remove("open"); }
+  function renderBuilderChoices(){
+    const wrap = document.getElementById("builderChoices");
+    wrap.innerHTML = builderOptions.map(name => `<label><input type="checkbox" value="${escapeHtml(name)}" /><span>${escapeHtml(name)}</span></label>`).join("");
+  }
+  function buildCustomRemedy(){
+    const blendName = document.getElementById("blendName")?.value.trim() || "Custom Herbal Remedy";
+    const blendType = document.getElementById("blendType")?.value || "Custom Tea Blend";
+    const blendGoal = document.getElementById("blendGoal")?.value || "Sleep Support";
+    const notes = document.getElementById("blendNotes")?.value.trim() || "";
+    const selected = Array.from(document.querySelectorAll("#builderChoices input:checked")).map(input => input.value);
+    if(selected.length === 0){ alert("Choose at least 1 botanical."); return; }
+    if(selected.length > 5){ alert("Choose no more than 5 botanicals."); return; }
+    const priceMap = { "Custom Tea Blend":45, "Custom Capsule Blend":55, "Custom Balm":48 };
+    const price = (priceMap[blendType] || 45) + (selected.length * 4);
+    const description = `${blendName} is a ${blendType.toLowerCase()} created for ${blendGoal.toLowerCase()}. It combines ${selected.join(", ")} to create a remedy that feels personal, intentional, and aligned with the support you want most.${notes ? " Notes: " + notes : ""}`;
+    state.customRemedy = { name:`${blendName} (${blendType})`, price, description, tags:[blendGoal, ...selected] };
+    document.getElementById("previewTitle").textContent = `${blendName} • ${blendType}`;
+    document.getElementById("previewDescription").textContent = description;
+    document.getElementById("previewTags").innerHTML = [blendGoal, ...selected].map(tag => `<span>${escapeHtml(tag)}</span>`).join("");
+    document.getElementById("previewPrice").textContent = money(price);
+    document.getElementById("addCustomToCartBtn").disabled = false;
+  }
+  function addCustomToCart(){ if(!state.customRemedy) return; addToCart(state.customRemedy.name, state.customRemedy.price); }
+  function openBooking(){ window.open(CONFIG.bookingUrl, "_blank"); }
+
+  document.addEventListener("click", (e) => {
+    const navBtn = e.target.closest(".nav-btn");
+    if (navBtn) { const paneId = navBtn.dataset.pane; if (paneId) showPane(paneId, navBtn); }
+    const goPane = e.target.closest(".go-pane");
+    if (goPane) { const paneId = goPane.dataset.pane; if (paneId) { const matchNav = document.querySelector(`.nav-btn[data-pane="${paneId}"]`); showPane(paneId, matchNav || null); } }
+    if (e.target.closest("#cartBtn")) openCart();
+    if (e.target.closest("#closeCart")) closeCart();
+    const addBtn = e.target.closest(".add-cart-btn"); if (addBtn) addToCart(addBtn.dataset.name, addBtn.dataset.price);
+    const qtyBtn = e.target.closest(".qty-btn"); if (qtyBtn) changeQty(qtyBtn.dataset.name, Number(qtyBtn.dataset.delta));
+    const removeBtn = e.target.closest(".remove-btn"); if (removeBtn) removeFromCart(removeBtn.dataset.name);
+    if (e.target.closest("#buildRemedyBtn")) buildCustomRemedy();
+    if (e.target.closest("#addCustomToCartBtn")) addCustomToCart();
+    if (e.target.closest("#bookingBtn") || e.target.closest("#bookingBtnSecondary")) openBooking();
+  });
+
+  document.getElementById("searchInput")?.addEventListener("input", applyBotanicalFilters);
+  document.getElementById("categoryFilter")?.addEventListener("change", applyBotanicalFilters);
+  document.getElementById("venmoPayBtn").href = CONFIG.venmoUrl;
+  document.getElementById("cashAppPayBtn").href = CONFIG.cashAppUrl;
+  document.getElementById("stripePayBtn").href = CONFIG.stripePaymentUrl;
+  if (bgMusic) bgMusic.volume = 0.18;
+  startMusicBtn?.addEventListener("click", async () => { musicGate?.classList.add("hidden"); if (bgMusic) { try { await bgMusic.play(); } catch (err) { console.log("Audio playback was blocked:", err); } } });
+  skipMusicBtn?.addEventListener("click", () => { musicGate?.classList.add("hidden"); if (bgMusic) bgMusic.pause(); });
+
+  renderCreations(); renderBotanicals(botanicals); renderServices(); renderBuilderChoices(); renderCart();
+});
+</script>
+</body>
+</html>
